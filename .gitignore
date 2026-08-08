@@ -1,0 +1,55 @@
+# Виртуальные окружения (Python)
+.venv/
+venv/
+env/
+ENV/
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Кэш Python и Jupyter
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Датасеты и папки с данными (рекомендуется хранить локально)
+data/raw/
+data/processed/
+*.csv
+*.tsv
+*.json
+*.parquet
+*.h5
+*.hd5
+
+# Веса моделей и чекпоинты (крупные файлы)
+models/
+*.pkl
+*.pickle
+*.pth
+*.pt
+*.onnx
+*.ckpt
+
+# Логи обучения и графики
+logs/
+.tensorboard/
+wandb/
+mlflow/
+*.log
+
+# Переменные окружения (пароли, API-ключи, например, от Kaggle или OpenAI)
+.env
+.env.*
+kaggle.json
+
+# Системные файлы и настройки IDE
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+
+database/сlear_file.csv
